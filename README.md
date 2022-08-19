@@ -10,9 +10,7 @@ This project is aiming to create an earthquake map to visualize all earthquakes 
 
 ## Result
 
- - Add street map and satellite map as base layer option
-    
- - Map all earthquakes with Point geoJSON data as an overlay map. 
+ - Use street map and satellite map as base layer options, map all past 7 days earthquakes with Point geoJSON data as an overlay map. 
    
    Circle marker colors and radius were styled to appeal viewers based on the magtitude of earthquakes.
    A legend was created on the bottom right to show magnitude range.
