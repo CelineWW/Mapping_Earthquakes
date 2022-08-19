@@ -1,22 +1,25 @@
 # Mapping_Earthquakes
 ## Overview
-Basil and Sadhana like how you created your earthquake map with two different maps and the earthquake overlay. Now, Basil and Sadhana would like to see the earthquake data in relation to the tectonic plates’ location on the earth, and they would like to see all the earthquakes with a magnitude greater than 4.5 on the map, and they would like to see the data on a third map.
+This project is aiming to create an earthquake map to visualize the earthquakes in past 7 days and major earthquake records around the world. Tectonic plates map was also added to reveal the reationship between earthquakes and plates. 
 
-1. map all recorded earthquakes in the past seven days. add some features to the map to showcase the severity of earthquakes for viewers
-2. add tectonic plate data and major earthquake data to the map using d3.json(). 
-3. add color and set the radius of the circle markers based on the magnitude of earthquake, and add a popup marker for each earthquake that displays the magnitude and location of the earthquake using geoJSON().
-4. add a third map style as a tile layer object.
+1. Using street map and satellite map as base layer, map all recorded earthquakes in the past 7 days. Add some features to the map to showcase the severity of earthquakes for viewers
+2. Add tectonic plate data and major earthquake data to the map using d3.json(). 
+3. Add color and set the radius of the circle markers based on the magnitude of earthquake. Add a popup marker for each earthquake that displays the magnitude and location of the earthquake using geoJSON().
+4. Add a dark map style as a tile layer object.
 
 
 ## Result
 
-This dynamic webpage can be explored by doing following steps:
  - Add street map and satellite map as base layer option
     
  - Map all earthquakes with Point geoJSON data as an overlay map. 
-   Circle marker colors and radius were styled to appeal viewers based on the magtitude of earthquakes. Popups were also added to show their magnitude and location.
+   
+   Circle marker colors and radius were styled to appeal viewers based on the magtitude of earthquakes.
+   A legend was created on the bottom right to show magnitude range.
+   Popups show more details about Magnitude and location. 
   
-    ![all earthquakes](https://user-images.githubusercontent.com/105877888/185680453-d4ae4216-7ed8-43a1-930c-78e0c7aa422d.png)
+    ![all earthquakes](https://user-images.githubusercontent.com/105877888/185702702-114d3fb8-b2e0-41a6-b5d8-831f4c308fd5.png)
+
       
     ![satellite map](https://user-images.githubusercontent.com/105877888/185682085-4330921d-a072-4826-802a-14a98b56552b.png)
 
@@ -32,16 +35,6 @@ This dynamic webpage can be explored by doing following steps:
  - Add dark map tile layer to base map option
 
     ![darke  map](https://user-images.githubusercontent.com/105877888/185682220-0d2ce2da-b24f-4321-9f15-67c5074ab79b.png)
-
-
-*An example multi-filter and its result:*
-```
-Enter Date : 1/1/2010
-Enter a City: ----
-Enter a State: ----
-Enter a Country: us
-Enter a Shape: sphere
-```
 
 
 ## Summary
