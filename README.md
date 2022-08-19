@@ -34,13 +34,10 @@ This project is aiming to create an earthquake map to visualize all earthquakes 
     ![dark map](https://user-images.githubusercontent.com/105877888/185706886-5520fce6-0997-4fff-bdab-1f00f5e16bf9.png)
 
 ## Summary
-Overall, the webpage looks nice. The contents are coherent. Multi-filter works functionally. The theme and background image match the UFOs content very well. Still, the webpage can be improved a little bit. 
+Three map styles: `Streets, Satellite, Dark` were provided as base map options. All earthquakes and major erathquakes records in past 7 days and tectonic plates map were all added to the map, which can be folded up. 
   1. A drawback of this webpage
      
-     The data source is limited. The observation record of UFOs only covers the date from 1/1/2020 through 1/13/2020. This is unsufficient for this webpage. More data need to be collected. If it is impossible to get more date, there should be a remark beside `Enter Date` filter to clarify the date period.
-  
+      more date, there should be a remark beside `Enter Date` filter to clarify the date period.
+ 
   2. Two additional recommendations for further development 
-     
-     1. The text `Filter Search` is very frustrating for the users. It looks like a filter button, quite misleading. At the same time,  `UFO Sightings` button which is for unfiltering is on the very top left corner. Users might not notice it. For further improvement, I would suggest to create two buttons: `Filter Search` and `Go Back` below multi-filters. `Filter Search` button will triger the filter to show the filter results after user input the filters and click the `Filter Search` button. Whereas `Go Back` will take over the function of `UFO Sightings` button. It will guide user to go back to unfiltered table.
-     2. The filter input must be exact macth to the format of data value in database. Currently, the input of city, state, country must be lowercase. Even though there are examples for each filter, these are not popular format for common use. If we can add a couple of codes to igonre or convert all input uppercase letter to lowercase letter, it will provide users a better experience on searching.
-     
+   
