@@ -10,7 +10,7 @@ This project is aiming to create an earthquake map to visualize all earthquakes 
 
 ## Result
 
- - Use street map and satellite map as base layer options, map all past 7 days earthquakes with Point geoJSON data as an overlay map. 
+ - Use street map and satellite map as base layer options, map all past 7 days earthquakes with Point geoJSON data as an overlay. 
    - Circle marker colors and radius were styled to appeal viewers based on the magtitude of earthquakes.
    - A legend was created on the bottom right to show magnitude range.
    - Popups show more details about Magnitude and location. 
@@ -20,19 +20,18 @@ This project is aiming to create an earthquake map to visualize all earthquakes 
       
     ![satellite map](https://user-images.githubusercontent.com/105877888/185682085-4330921d-a072-4826-802a-14a98b56552b.png)
 
- - Map tectonic plates with LineString geoJSON data as an overlay map
+ - Map tectonic plates with LineString geoJSON data as an overlay
   
     ![tectonic plates](https://user-images.githubusercontent.com/105877888/185681411-c372c3f7-03f5-4e2f-a0db-98b592d8573e.png)
 
   
- - Map major earthquakes with Point geoJSON data as an overlay map
+ - Map major earthquakes with Point geoJSON data as an overlay
   
     ![major earthquakes](https://user-images.githubusercontent.com/105877888/185681433-541feed2-8a51-40a0-8210-d871101bbfa7.png)
 
- - Add dark map tile layer to base map option
+ - Add dark map tile layer to base map options
 
-    ![darke  map](https://user-images.githubusercontent.com/105877888/185682220-0d2ce2da-b24f-4321-9f15-67c5074ab79b.png)
-
+    ![dark map](https://user-images.githubusercontent.com/105877888/185706886-5520fce6-0997-4fff-bdab-1f00f5e16bf9.png)
 
 ## Summary
 Overall, the webpage looks nice. The contents are coherent. Multi-filter works functionally. The theme and background image match the UFOs content very well. Still, the webpage can be improved a little bit. 
