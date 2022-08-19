@@ -1,6 +1,6 @@
 # Mapping_Earthquakes
 ## Overview
-This project is aiming to create an earthquake map to visualize the earthquakes in past 7 days and major earthquake records around the world. Tectonic plates map was also added to reveal the reationship between earthquakes and plates. 
+This project is aiming to create an earthquake map to visualize all earthquakes and major earthquakes records in past 7 days around the world. Tectonic plates map was also added to reveal the reationship between earthquakes and plates. 
 
 1. Using street map and satellite map as base layer, map all recorded earthquakes in the past 7 days. Add some features to the map to showcase the severity of earthquakes for viewers
 2. Add tectonic plate data and major earthquake data to the map using d3.json(). 
