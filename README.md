@@ -2,10 +2,10 @@
 ## Overview
 This project is aiming to create an earthquake map to visualize all earthquakes and major earthquakes records in past 7 days around the world. Tectonic plates map was also added to reveal the reationship between earthquakes and plates. 
 
-1. Using street map and satellite map as base layer, map all recorded earthquakes in the past 7 days. Add some features to the map to showcase the severity of earthquakes for viewers
+1. Using street map and satellite map as base layer, map all recorded earthquakes in the past 7 days. Add some features to the map to showcase the severity of earthquakes for viewers.
 2. Add tectonic plate data and major earthquake data to the map using d3.json(). 
 3. Add color and set the radius of the circle markers based on the magnitude of earthquake. Add a popup marker for each earthquake that displays the magnitude and location of the earthquake using geoJSON().
-4. Add a dark map style as a tile layer object.
+4. Add a dark map style as an additional tile layer.
 
 
 ## Result
