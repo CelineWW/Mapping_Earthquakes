@@ -1,41 +1,35 @@
 # Mapping_Earthquakes
 ## Overview
+Basil and Sadhana like how you created your earthquake map with two different maps and the earthquake overlay. Now, Basil and Sadhana would like to see the earthquake data in relation to the tectonic plates’ location on the earth, and they would like to see all the earthquakes with a magnitude greater than 4.5 on the map, and they would like to see the data on a third map.
 
-This project is focusing on developing a dynamic webpage by inserting JavaScript data source into an HTML page. 
-1. Build a table to hold and display UFO observation data.
-2. Add a filter to take user inputs and adjust the table accordingly through multi-filter. 
-3. Insert the table into a well-structured HTML page.
-4. Use bootstrap and css to style the webpage.
-5. Add title and an article to webpage as a brief introduction for the analysis background.
+1. map all recorded earthquakes in the past seven days. add some features to the map to showcase the severity of earthquakes for viewers
+2. add tectonic plate data and major earthquake data to the map using d3.json(). 
+3. add color and set the radius of the circle markers based on the magnitude of earthquake, and add a popup marker for each earthquake that displays the magnitude and location of the earthquake using geoJSON().
+4. add a third map style as a tile layer object.
+
 
 ## Result
 
 This dynamic webpage can be explored by doing following steps:
-  - Open the webpage by clicking index.html
-  - Browse the title, summary article, and table columns.
-  
-  
-  - Add street map base layer
+ - Add street map and satellite map as base layer option
     
-
-  - Map all earthquakes with Point geoJSON data
+ - Map all earthquakes with Point geoJSON data as an overlay map. 
+   Circle marker colors and radius were styled to appeal viewers based on the magtitude of earthquakes. Popups were also added to show their magnitude and location.
   
     ![all earthquakes](https://user-images.githubusercontent.com/105877888/185680453-d4ae4216-7ed8-43a1-930c-78e0c7aa422d.png)
-    
-  - Add satellite map
-  
+      
     ![satellite map](https://user-images.githubusercontent.com/105877888/185682085-4330921d-a072-4826-802a-14a98b56552b.png)
 
-  - Map tectonic plates with LineString geoJSON data 
+ - Map tectonic plates with LineString geoJSON data as an overlay map
   
     ![tectonic plates](https://user-images.githubusercontent.com/105877888/185681411-c372c3f7-03f5-4e2f-a0db-98b592d8573e.png)
 
   
-  - Map major earthquakes with Point geoJSON data
+ - Map major earthquakes with Point geoJSON data as an overlay map
   
     ![major earthquakes](https://user-images.githubusercontent.com/105877888/185681433-541feed2-8a51-40a0-8210-d871101bbfa7.png)
 
-  - Add dark Map tile layer 
+ - Add dark map tile layer to base map option
 
     ![darke  map](https://user-images.githubusercontent.com/105877888/185682220-0d2ce2da-b24f-4321-9f15-67c5074ab79b.png)
 
