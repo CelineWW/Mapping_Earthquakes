@@ -1,11 +1,11 @@
 # Mapping_Earthquakes
 ## Overview
-This project is aiming to create an earthquake map to visualize all earthquakes and major earthquakes records in past 7 days around the world. Tectonic plates map was also added to reveal the reationship between earthquakes and plates. 
+This project is aiming to create an earthquake map to visualize all earthquakes and major earthquakes in past 7 days around the world, and trying to discover the realtionship between tectonic plates and earthquakes. 
 
-1. Using street map and satellite map as base layer, map all recorded earthquakes in the past 7 days. Add some features to the map to showcase the severity of earthquakes for viewers.
+1. Using street map and satellite map as base layer, map all earthquakes data in the past 7 days. Add some features to the map to show the severity of earthquakes for viewers.
 2. Add tectonic plate data and major earthquake data to the map using d3.json(). 
 3. Add color and set the radius of the circle markers based on the magnitude of earthquake. Add a popup marker for each earthquake that displays the magnitude and location of the earthquake using geoJSON().
-4. Add a dark map style as an additional tile layer.
+4. Add a dark map as an additional tile layer.
 
 
 ## Result
@@ -34,10 +34,8 @@ This project is aiming to create an earthquake map to visualize all earthquakes 
     ![dark map](https://user-images.githubusercontent.com/105877888/185706886-5520fce6-0997-4fff-bdab-1f00f5e16bf9.png)
 
 ## Summary
-Three map styles: `Streets, Satellite, Dark` were provided as base map options. All earthquakes and major erathquakes records in past 7 days and tectonic plates map were all added to the map, which can be folded up. 
-  1. A drawback of this webpage
-     
-      more date, there should be a remark beside `Enter Date` filter to clarify the date period.
- 
-  2. Two additional recommendations for further development 
+- Three map styles: `Streets, Satellite, Dark` were provided as base map options. All earthquakes and major erathquakes data in past 7 days and tectonic plates data were all added to the map, which can be folded up. From the map of earthquake and tectonic plates, Major earthquaks mainly happens on or closeto the plate boundaries.
+- Still, there are a couple of drawbacks for the project.
+  1. Since geologic movement is dynamic, earthquake status changes every minute. The geoJSON file we used for mapping here is static. It is better to choose a real-time earthquake link to get most updated information.
+  2. Popups only include magnitude and location. The time when earthquake happened is another parameter that Viewers may concern too.
    
